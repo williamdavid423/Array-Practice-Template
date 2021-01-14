@@ -42,12 +42,12 @@
             this.matchLabel = new System.Windows.Forms.Label();
             this.threeOutput = new System.Windows.Forms.Label();
             this.threeLabel = new System.Windows.Forms.Label();
-            this.zeroOutput = new System.Windows.Forms.Label();
-            this.zeroLabel = new System.Windows.Forms.Label();
             this.evenOutput = new System.Windows.Forms.Label();
             this.evenLabel = new System.Windows.Forms.Label();
             this.averageOutput = new System.Windows.Forms.Label();
             this.averageLabel = new System.Windows.Forms.Label();
+            this.zeroOutput = new System.Windows.Forms.Label();
+            this.zeroLabel = new System.Windows.Forms.Label();
             this.reverseOutput = new System.Windows.Forms.Label();
             this.reverseLabel = new System.Windows.Forms.Label();
             this.swap2Output = new System.Windows.Forms.Label();
@@ -148,7 +148,7 @@
             // 
             // titleLabel
             // 
-            this.titleLabel.BackColor = System.Drawing.Color.DarkRed;
+            this.titleLabel.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(-1, -3);
@@ -232,31 +232,6 @@
             this.threeLabel.Text = "Total number of 3\'s";
             this.threeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // zeroOutput
-            // 
-            this.zeroOutput.BackColor = System.Drawing.Color.White;
-            this.zeroOutput.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zeroOutput.ForeColor = System.Drawing.Color.Black;
-            this.zeroOutput.Location = new System.Drawing.Point(119, 49);
-            this.zeroOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.zeroOutput.Name = "zeroOutput";
-            this.zeroOutput.Size = new System.Drawing.Size(43, 20);
-            this.zeroOutput.TabIndex = 17;
-            this.zeroOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // zeroLabel
-            // 
-            this.zeroLabel.AutoSize = true;
-            this.zeroLabel.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zeroLabel.ForeColor = System.Drawing.Color.White;
-            this.zeroLabel.Location = new System.Drawing.Point(31, 52);
-            this.zeroLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.zeroLabel.Name = "zeroLabel";
-            this.zeroLabel.Size = new System.Drawing.Size(83, 13);
-            this.zeroLabel.TabIndex = 16;
-            this.zeroLabel.Text = "First Index of 0";
-            this.zeroLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // evenOutput
             // 
             this.evenOutput.BackColor = System.Drawing.Color.White;
@@ -306,6 +281,31 @@
             this.averageLabel.TabIndex = 10;
             this.averageLabel.Text = "Average of all Values";
             this.averageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // zeroOutput
+            // 
+            this.zeroOutput.BackColor = System.Drawing.Color.White;
+            this.zeroOutput.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zeroOutput.ForeColor = System.Drawing.Color.Black;
+            this.zeroOutput.Location = new System.Drawing.Point(119, 49);
+            this.zeroOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.zeroOutput.Name = "zeroOutput";
+            this.zeroOutput.Size = new System.Drawing.Size(43, 20);
+            this.zeroOutput.TabIndex = 17;
+            this.zeroOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // zeroLabel
+            // 
+            this.zeroLabel.AutoSize = true;
+            this.zeroLabel.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zeroLabel.ForeColor = System.Drawing.Color.White;
+            this.zeroLabel.Location = new System.Drawing.Point(31, 52);
+            this.zeroLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.zeroLabel.Name = "zeroLabel";
+            this.zeroLabel.Size = new System.Drawing.Size(83, 13);
+            this.zeroLabel.TabIndex = 16;
+            this.zeroLabel.Text = "First Index of 0";
+            this.zeroLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // reverseOutput
             // 
