@@ -21,7 +21,8 @@ namespace ArrayPractice
         private void runButton_Click(object sender, EventArgs e)
         {
             // Create 2 arrays to hold 10 values each
-
+            int[] numbers = new int[10];
+            int[] numbers2 = new int[10];
 
             // variables that can be used to determine outcomes of questions
             int samePosition;
@@ -32,19 +33,34 @@ namespace ArrayPractice
             Random randGen = new Random();
 
             //1. Generate random values for both pre-created arrays
-
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = randGen.Next(1, 10);
+                array1Output.Text += $"{numbers[i]}";
+            }
 
             //2. Display array 1
-
+            for (int i = 0; i < numbers2.Length; i++)
+            {
+                numbers2[i] = randGen.Next(1, 10);
+                array2Output.Text += $"{numbers2[i]}";
+            }
 
             //3. Display array 2
 
 
             //4. Display array 1 in reverse order
-
+            for (int i = numbers.Length - 1; i >= 0; i--)
+            {
+                reverseOutput.Text += $"{numbers[i]}";
+            }
 
             //5. Determine and display the largest value in array 1          
-
+            int temp = 0;
+            for (int i = numbers.Length; i > temp; i = temp)
+            {  
+                maxOutput.Text = $"{temp}";
+            }
 
             //6.Determine and display the average of all values in array 1
 
