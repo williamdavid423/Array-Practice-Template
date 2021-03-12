@@ -33,6 +33,9 @@ namespace ArrayPractice
             Random randGen = new Random();
 
             //1. Generate random values for both pre-created arrays
+            int temp = 0;
+         
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = randGen.Next(1, 10);
@@ -56,11 +59,16 @@ namespace ArrayPractice
             }
 
             //5. Determine and display the largest value in array 1          
-            int temp = 0;
-            for (int i = numbers.Length; i > temp; i = temp)
-            {  
-                maxOutput.Text = $"{temp}";
-            }
+            temp = numbers.Max();
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (i > temp)
+            //    {
+            //        temp = i;
+            //    }
+            //}
+            maxOutput.Text = $"{temp}";
 
             //6.Determine and display the average of all values in array 1
 
@@ -83,6 +91,11 @@ namespace ArrayPractice
 
 
             //2. swap and display all values between array1 and array2
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }

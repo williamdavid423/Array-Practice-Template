@@ -418,6 +418,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Arrays";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.array1Group.ResumeLayout(false);
             this.array1Group.PerformLayout();
             this.enrichmentBox.ResumeLayout(false);
