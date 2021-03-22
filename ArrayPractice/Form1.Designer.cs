@@ -268,6 +268,7 @@
             this.averageOutput.Size = new System.Drawing.Size(43, 20);
             this.averageOutput.TabIndex = 11;
             this.averageOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.averageOutput.Click += new System.EventHandler(this.AverageOutput_Click);
             // 
             // averageLabel
             // 

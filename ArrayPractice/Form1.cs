@@ -71,13 +71,33 @@ namespace ArrayPractice
             maxOutput.Text = $"{temp}";
 
             //6.Determine and display the average of all values in array 1
+            int total = 0;
 
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                total += numbers[i];
+            }
+            averageOutput.Text = $"{total}";
 
             //7. Determine and display the sum of all even values in array 1
+            int total2 = 0;
 
+            for (int i = 0; i < numbers.Length; i += 2)
+            {
+                total2 += numbers[i];
+            }
+            evenOutput.Text = $"{total2}";
 
             //8. Determine and display the number of 3s in array 1
+            int totalThree = 0;
 
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if(numbers[i] = )
+                {
+
+                }
+            }
 
             //9. Determine and display how many matching numbers in matching positions between the 2 arrays there are
 
@@ -95,6 +115,11 @@ namespace ArrayPractice
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AverageOutput_Click(object sender, EventArgs e)
         {
 
         }
