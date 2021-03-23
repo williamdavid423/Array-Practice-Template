@@ -101,8 +101,16 @@ namespace ArrayPractice
             threeOutput.Text = $"{totalThree}";
 
             //9. Determine and display how many matching numbers in matching positions between the 2 arrays there are
+            int matching = 0;
 
-           for(int i = 0; )
+            for (int i = 0; i < numbers.Length; i++)
+            {
+              if(numbers[i] == numbers2[i])
+                {
+                    matching++;
+                }
+            }
+            matchOutput.Text = $"{matching}";
 
             // ----------------------
             // ##### ENRICHMENT #####
@@ -122,6 +130,11 @@ namespace ArrayPractice
         }
 
         private void AverageOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MatchOutput_Click(object sender, EventArgs e)
         {
 
         }

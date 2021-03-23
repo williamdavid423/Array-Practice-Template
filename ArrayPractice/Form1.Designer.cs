@@ -193,6 +193,7 @@
             this.matchOutput.Size = new System.Drawing.Size(43, 20);
             this.matchOutput.TabIndex = 21;
             this.matchOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.matchOutput.Click += new System.EventHandler(this.MatchOutput_Click);
             // 
             // matchLabel
             // 
