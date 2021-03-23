@@ -93,14 +93,16 @@ namespace ArrayPractice
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                if(numbers[i] = )
+                if(numbers[i] == 3)
                 {
-
+                    totalThree++;
                 }
             }
+            threeOutput.Text = $"{totalThree}";
 
             //9. Determine and display how many matching numbers in matching positions between the 2 arrays there are
 
+           for(int i = 0; )
 
             // ----------------------
             // ##### ENRICHMENT #####
